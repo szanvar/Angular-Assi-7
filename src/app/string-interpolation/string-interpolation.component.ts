@@ -15,7 +15,6 @@ export class StringInterpolationComponent implements OnInit {
   }
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 
 }

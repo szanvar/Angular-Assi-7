@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SecondCompComponent implements OnInit {
 
-  public secondcomp : string = "second"
+  public secondcomp : string = "second";
+  
   constructor() { }
 
   ngOnInit(): void {

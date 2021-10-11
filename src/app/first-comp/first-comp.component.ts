@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FirstCompComponent implements OnInit {
 
-  isSet :boolean = false;
+  isSet : boolean = false;
 
   constructor() { }
 

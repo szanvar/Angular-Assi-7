@@ -9,7 +9,6 @@ export class UpperLowerButtonComponent implements OnInit {
 
   str : string = "";
   str1 : string = "";
-  str2 : string ="";
 
   upperCase() : string
   {
@@ -21,12 +20,11 @@ export class UpperLowerButtonComponent implements OnInit {
   lowerCase()
   {
     this.str ="Marvellous Infosystems";
-    this.str2 = this.str.toLowerCase();
-    return this.str2; 
+    this.str1 = this.str.toLowerCase();
+    return this.str1; 
   }
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 
 }

@@ -15,7 +15,6 @@ export class EventClickComponent implements OnInit {
   }
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 
 }
